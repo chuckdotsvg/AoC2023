@@ -3,7 +3,7 @@ use std::fs;
 struct Rgb(u32, u32, u32);
 
 fn main() {
-    let path = "/home/chuck/projects/aoc2023/day2/part1/input.txt";
+    let path = "/home/chuck/projects/aoc2023/day2/input.txt";
     let contents = fs::read_to_string(path);
 
     let my_balls = Rgb(12, 13, 14);
